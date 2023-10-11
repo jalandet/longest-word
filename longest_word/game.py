@@ -41,3 +41,9 @@ if __name__ == "__main__":
     print(game.grid) # --> OQUWRBAZE
     my_word = "BAROQUE"
     print(game.is_valid(my_word)) # --> True
+    '''
+    new_game = Game()
+    new_game.grid = list('KWIENFUQW')
+    print(new_game.is_valid('FEUN'))
+    # => true
+    '''
